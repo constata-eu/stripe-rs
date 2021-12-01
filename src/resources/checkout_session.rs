@@ -113,6 +113,15 @@ pub struct CheckoutSession {
     /// The URL the customer will be directed to after the payment or
     /// subscription creation is successful.
     pub success_url: String,
+
+    /// The URL to the Checkout Session.
+    pub url: String,
+
+    /// Total of all items before discounts or taxes are applied.
+    pub amount_subtotal: i64,
+
+    /// Total of all items after discounts and taxes are applied.
+    pub amount_total: i64,
 }
 
 impl Object for CheckoutSession {

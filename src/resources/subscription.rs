@@ -6,9 +6,9 @@ use crate::config::{Client, Response};
 use crate::ids::{CouponId, CustomerId, PlanId, PriceId, SubscriptionId};
 use crate::params::{Deleted, Expand, Expandable, List, Metadata, Object, RangeQuery, Timestamp};
 use crate::resources::{
-    CollectionMethod, Currency, Customer, Discount, Invoice, PaymentMethod, PaymentSource, Plan,
-    Scheduled, SetupIntent, SubscriptionBillingThresholds, SubscriptionItem,
-    SubscriptionItemBillingThresholds, SubscriptionSchedule, TaxRate,
+  CollectionMethod, Currency, Customer, Discount, Invoice, PaymentMethod, PaymentSource, Plan,
+  Scheduled, SetupIntent, SubscriptionBillingThresholds, SubscriptionItem,
+  SubscriptionItemBillingThresholds, SubscriptionSchedule, TaxRate,
 };
 use serde_derive::{Deserialize, Serialize};
 

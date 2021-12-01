@@ -492,7 +492,7 @@ def_id!(EventId, "evt_");
 def_id!(FileId, "file_");
 def_id!(FileLinkId, "link_");
 def_id!(InvoiceId, "in_", { _ });
-def_id!(InvoiceItemId, "ii_");
+def_id!(InvoiceItemId, "il_");
 def_id!(
     enum InvoiceLineItemId {
         Item(InvoiceItemId),
