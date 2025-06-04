@@ -138,6 +138,8 @@ pub enum EventType {
     PaymentIntentRequiresCapture,
     #[serde(rename = "payment_intent.succeeded")]
     PaymentIntentSucceeded,
+    #[serde(rename = "payment_intent.canceled")]
+    PaymentIntentCanceled,
     #[serde(rename = "payout.canceled")]
     PayoutCanceled,
     #[serde(rename = "payout.created")]
